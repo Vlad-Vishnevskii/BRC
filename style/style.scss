@@ -360,7 +360,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 15px;
 
     img {
       border-radius: 20px;
@@ -369,13 +369,24 @@ img {
 
   &_name {
     p {
-      color: #fff;
+      color: #f1521f;
       text-align: center;
-      font-size: 40px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 400;
-      line-height: 40px;
-      text-transform: uppercase;
+      line-height: normal;
+      letter-spacing: -0.4px;
+    }
+  }
+
+  &_label {
+    p {
+      color: #fff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.4px;
     }
   }
 }
