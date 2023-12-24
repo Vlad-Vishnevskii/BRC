@@ -153,14 +153,14 @@ img {
   text-transform: uppercase;
 }
 .animated-sring_text {
-  animation: scroll 4s linear infinite;
+  animation: scroll 5s linear infinite;
 }
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(180%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-120%);
   }
 }
 
@@ -251,7 +251,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 290px;
+  margin-top: 248px;
   width: 100%;
 }
 .team_title {
@@ -277,22 +277,24 @@ img {
 }
 .team_list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 416px);
   grid-template-rows: repeat(3, auto);
   list-style: none;
   row-gap: 80px;
   -moz-column-gap: 24px;
        column-gap: 24px;
-  margin-top: 155px;
+  margin-top: 77px;
 }
 .team_item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
 }
 .team_item img {
   border-radius: 20px;
+}
+.team_name {
+  margin-top: 41px;
 }
 .team_name p {
   color: #f1521f;
@@ -310,20 +312,21 @@ img {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.4px;
+  text-align: center;
 }
 
 .footer {
-  margin-top: 156px;
-  padding-bottom: 180px;
+  margin-top: 400px;
+  padding-bottom: 83px;
   width: 100%;
   min-height: 260px;
-  background: linear-gradient(180deg, rgba(10, 28, 14, 0) 37.55%, #9747e7 100%);
+  background: linear-gradient(180deg, rgba(10, 28, 14, 0) 48.55%, #f1521f 100%);
 }
 
 .footer_container {
   display: flex;
   align-items: flex-start;
-  max-width: 1400px;
+  max-width: 1252px;
   gap: 200px;
   margin: 0 auto;
 }
@@ -331,11 +334,11 @@ img {
 .footer_title {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #fcffff;
-  font-size: 100px;
+  color: #fff;
+  font-size: 55px;
   font-style: normal;
   font-weight: 400;
-  line-height: 60px;
+  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -362,9 +365,10 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  border: 2px solid #9747e7;
-  box-shadow: 0px 0px 20px 0px rgba(17, 255, 68, 0.4);
-  transition: all 0.3s ease;
+  border-radius: 10px;
+  border: 2px solid #f1521f;
+  box-shadow: 0px 0px 20px 0px rgba(17, 255, 68, 0.15);
+  transition: 0.3s ease;
 }
 
 .footer_socialItem--share {
