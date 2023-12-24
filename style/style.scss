@@ -115,14 +115,10 @@ img {
 
   &_bg {
     position: absolute;
-    top: 123px;
+    top: 0;
     left: 0;
     width: 100%;
     height: auto;
-
-    @include vp-1023 {
-      top: 0;
-    }
   }
 
   &_block {

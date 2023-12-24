@@ -68,15 +68,10 @@ img {
 }
 .header_bg {
   position: absolute;
-  top: 123px;
+  top: 0;
   left: 0;
   width: 100%;
   height: auto;
-}
-@media (max-width: 1023px) {
-  .header_bg {
-    top: 0;
-  }
 }
 .header_block {
   position: relative;
