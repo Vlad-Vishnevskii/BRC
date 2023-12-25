@@ -196,6 +196,7 @@ img {
     line-height: normal;
     font-variant: small-caps;
     letter-spacing: 0.6px;
+    word-break: break-all;
 
     @include vp-1023 {
       margin-top: 40px;

@@ -151,6 +151,7 @@ img {
   line-height: normal;
   font-variant: small-caps;
   letter-spacing: 0.6px;
+  word-break: break-all;
 }
 @media (max-width: 1023px) {
   .header_adress {
